@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: docker.io/nico385412/configmaps:1.0.0 # {"$imagepolicy": "flux-system:ip-hello"}
+        image: docker.io/nico385412/configmaps:2.0.0 # {"$imagepolicy": "flux-system:ip-hello"}
         ports:
         - containerPort: 3000
         env:
