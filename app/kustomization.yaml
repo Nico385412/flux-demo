@@ -4,3 +4,6 @@ resources:
   - config.yaml
   - deploy.yaml
   - service.yaml
+  - imageAutomation.yaml
+  - imagePolicy.yaml
+  - imageRepo.yaml

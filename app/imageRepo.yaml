@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: ir-hello
+  namespace: flux-system
+spec:
+  image: nico385412/configmaps
+  interval: 1m
