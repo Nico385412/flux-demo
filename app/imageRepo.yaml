@@ -4,5 +4,5 @@ metadata:
   name: ir-hello
   namespace: flux-system
 spec:
-  image: nico385412/configmaps
+  image: docker.io/nico385412/configmaps
   interval: 1m
