@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: my-config
+  namespace: default
 data:
   NAME: "Nicolas"
   COLOR: "green"
